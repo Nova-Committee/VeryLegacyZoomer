@@ -2,8 +2,6 @@ package committee.nova.vlzoomer.client.config;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityClientPlayerMP;
-import net.minecraft.client.resources.I18n;
-import net.minecraft.network.packet.Packet3Chat;
 import net.minecraft.util.MathHelper;
 import net.minecraftforge.common.Configuration;
 
@@ -50,7 +48,7 @@ public class ClientConfig {
         if (mc == null) return;
         final EntityClientPlayerMP player = mc.thePlayer;
         if (player == null) return;
-        player.sendQueue.addToSendQueue(new Packet3Chat(I18n.getString(String.format("msg.vlzoomer.switchTo.%s", toggle ? "toggle" : "hold")), false));
+        player.addChatMessage(String.format("msg.vlzoomer.switchTo.%s", toggle ? "toggle" : "hold"));
     }
 
     public static float getFovModifier() {
