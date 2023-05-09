@@ -1,18 +1,13 @@
 [
   {
-    "modid": "examplemod",
-    "name": "ExampleMod",
-    "description": "Example very legacy forge mod.",
+    "modid": "vlzoomer",
+    "name": "VeryLegacyZoomer",
+    "description": "Very legacy zoomer.",
     "version": "${version}",
     "mcversion": "1.6.4",
-    "url": "addyoururl.invalid",
-    "updateUrl": "addyourupdatefile.json",
+    "url": "https://github.com/Nova-Committee/VeryLegacyZoomer",
     "authorList": [
-      "Author"
-    ],
-    "credits": "Unascribe & Quat, who develops the Voldeloom",
-    "logoFile": "logo.png",
-    "screenshots": [],
-    "dependencies": []
+      "Tapio"
+    ]
   }
 ]
