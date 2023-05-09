@@ -12,7 +12,7 @@ import org.lwjgl.input.Keyboard;
 
 public class ClientHandler {
     public static void init() {
-        KeyBindingRegistry.registerKeyBinding(new ZoomKeyHandler(new KeyBinding[]{new KeyBinding("key.vlzoomer.zoom", Keyboard.KEY_C)}));
+        KeyBindingRegistry.registerKeyBinding(new ZoomKeyHandler(new KeyBinding[]{new KeyBinding("key.vlzoomer.zoom", Keyboard.KEY_Z)}));
         KeyBindingRegistry.registerKeyBinding(new ModeKeyHandler(new KeyBinding[]{new KeyBinding("key.vlzoomer.switchMode", Keyboard.KEY_X)}));
         MinecraftForge.EVENT_BUS.register(new ClientHandler());
     }
