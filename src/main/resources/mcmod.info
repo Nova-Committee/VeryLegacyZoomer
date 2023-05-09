@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "examplemod",
+    "name": "ExampleMod",
+    "description": "Example very legacy forge mod.",
+    "version": "${version}",
+    "mcversion": "1.6.4",
+    "url": "addyoururl.invalid",
+    "updateUrl": "addyourupdatefile.json",
+    "authorList": [
+      "Author"
+    ],
+    "credits": "Unascribe & Quat, who develops the Voldeloom",
+    "logoFile": "logo.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
