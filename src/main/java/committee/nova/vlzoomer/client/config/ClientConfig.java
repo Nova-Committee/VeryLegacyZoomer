@@ -48,7 +48,7 @@ public class ClientConfig {
         if (mc == null) return;
         final EntityClientPlayerMP player = mc.thePlayer;
         if (player == null) return;
-        player.addChatMessage(String.format("msg.vlzoomer.switchTo.%s", toggle ? "toggle" : "hold"));
+        player.addChatMessage("msg.vlzoomer.switchTo." + (toggle ? "toggle" : "hold"));
     }
 
     public static float getFovModifier() {
