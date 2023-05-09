@@ -1,0 +1,13 @@
+[
+  {
+    "modid": "vlzoomer",
+    "name": "VeryLegacyZoomer",
+    "description": "A very legacy zoomer.",
+    "version": "${version}",
+    "mcversion": "1.7.10",
+    "url": "https://github.com/Nova-Committee/VeryLegacyZoomer",
+    "authorList": [
+      "Tapio"
+    ]
+  }
+]
