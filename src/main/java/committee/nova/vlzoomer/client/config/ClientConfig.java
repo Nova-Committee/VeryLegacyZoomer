@@ -43,7 +43,7 @@ public class ClientConfig {
 
     public static void switchToggleMode() {
         toggle = !toggle;
-        if (!toggle) toggleStatus = 0;
+        toggleStatus = 0;
         final Minecraft mc = Minecraft.getMinecraft();
         if (mc == null) return;
         final EntityClientPlayerMP player = mc.thePlayer;
